@@ -1,0 +1,32 @@
+{
+  "name": "sequelize_poc",
+  "version": "1.0.0",
+  "description": "Proof of concept where I try to check interesting features in sequelize module and ensure that it can be used on production (due to performance, maintainability and ease of use)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/node": "^12.12.11",
+    "@types/pg": "^7.11.2",
+    "@types/validator": "^12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msuskadev/sequelize_poc.git"
+  },
+  "author": "Mieczyslaw Suska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msuskadev/sequelize_poc/issues"
+  },
+  "homepage": "https://github.com/msuskadev/sequelize_poc#readme"
+}
